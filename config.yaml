@@ -177,7 +177,7 @@ params:
       - title: Adaptive Genomics of Invasive American shad
         content: |-
           The bulk of my dissertation is focused on identifying genomic signals of rapid adaptation in invasive populations of American shad. I'm especially interested in studying how structural variants, standing variation, and demographic changes have shaped the evolution of invasive populations.
-        image: /images/inversion_gradient.png
+        image: /images/inversion_gradient_web.png
         badges:
           - "Invasion Genomics"
           - "Rapid Evolution"
