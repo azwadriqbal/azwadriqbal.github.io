@@ -1,4 +1,4 @@
-baseURL: azwadriqbal.github.io
+baseURL: https://azwadriqbal.github.io
 languageCode: en-us
 title: Azwad Iqbal
 theme: hugo-profile
@@ -51,7 +51,7 @@ params:
   title: "Azwad Iqbal"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/images/shad_icon.svg"
+  favicon: "/images/shad_icon.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -116,7 +116,7 @@ params:
       disableExperience: false
       disableEducation: false
       disableProjects: true
-      disableAchievements: false
+      disableAchievements: true
       disableContact: false
 
   # Hero
@@ -127,13 +127,14 @@ params:
     subtitle: "I'm a population geneticist & evolutionary biologist"
     content: "I'm interesting in using population genomics to study rapid evolution in invasive species. My research uses a combination of molecular and analytical methods to reconstruct the evolutionary histories of biological invasions."
     image: /images/azwad.jpg
+    image_second: /images/shad_2.jpg
     bottomImage: 
       enable: true
     roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "CV"
-      url: "#"
+      url: "https://raw.githubusercontent.com/azwadriqbal/azwadriqbal.github.io/refs/heads/main/cv/iqbal_azwad_cv_11_04_24.pdf"
       download: true
       newPage: false
     socialLinks:
@@ -150,14 +151,16 @@ params:
     title: "About"
     image: "/images/me_2.jpg"
     content: |-
-      I am a broadly trained **population geneticist** and **evolutionary biologist** with a background in molecular ecology. I've worked with large mammalian herbivores in African savannas, yellow-fever mosquitoes, and am now working with America's "[Founding Fish](https://us.macmillan.com/books/9780374528836/thefoundingfish)", the American shad (*Alosa sapidissima*), as part of my dissertation in the [Therkildsen Lab](https://www.therkildsenlab.org/) at Cornell University.
+      I am a broadly trained **population geneticist** and **evolutionary biologist** with a background in molecular ecology. I've worked with [large mammalian herbivores](https://www.pnas.org/doi/10.1073/pnas.2204400119) in African savannas, [yellow-fever mosquitoes](https://www.nature.com/articles/s41586-022-04675-4), and am currently working with America's "[Founding Fish](https://us.macmillan.com/books/9780374528836/thefoundingfish)", the American shad (*Alosa sapidissima*), as part of my dissertation in the [Therkildsen Lab](https://www.therkildsenlab.org/) at Cornell University.
 
       I am passionate about leveraging genomics to inform conservation and have actively collaborated with stakeholders in developing my research.
+
+      Outside of my research, I enjoy powerlifting, playing video games, listening to music (mostly hip hop along with some indie and electronic), and [producing music](https://soundcloud.com/wadzmix) (in the form of mixes for competitive bhangra teams) 
 
 
     skills:
       enable: true
-      title: "I'm experienced with a variety of languages and laboratory techniques, including:"
+      title: "I am experienced with a variety of programming languages and laboratory techniques, including:"
       items:
         - "R"
         - "Python"
@@ -179,12 +182,14 @@ params:
           enable: true
           name: "Therkildsen Lab Website"
           url: "https://therkildsenlab.org"
+        info:
+          enable: false          
         content: |
           I am PhD Candidate at Cornell University in the department of Natural Resources and the Environment. I am currently working on several projects, including:
         
           - Studying the rapid evolution of invasive American shad with whole-genome resequencing
           - Developing "Haplotagging" linked-read sequencing technology for non-model organisms
-          - Leveraging musuem collections to study the role of standing genetic variation in invasion success
+          - Leveraging museum collections to study the role of standing genetic variation in invasion success
 
       - job: "Research Specialist"
         company: "McBride Lab - Princeton University"
@@ -225,46 +230,31 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "PhD in Natural Resources and the Environment"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "Cornell University"
+          url: "https://cornell.edu"
+        date: "2021 - 2026"
+        GPA: "4.0"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+            - NSF Graduate Research Fellow
+            - Society for the Study of Evolution (SSE) R.C. Lewontin Award
+            - Cornell Center for Vertebrate Genomics Scholar
 
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
+      - title: "Bachelor of Arts in Ecology and Evolutionary Biology"
         school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+          name: "Princeton University"
+          url: "https://princeton.edu"
+        date: "2015 - 2019"
+        GPA: "3.85 out of 4.0"
+        content: |-
+            - *Summa cum laude*
+            - Sigma Xi Book Award for Outstanding Research
+            - Senior Thesis Prize in Ecology
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     title: "Honors"
     items:
       - title: Google kickstart runner
