@@ -183,7 +183,7 @@ params:
           - "Rapid Evolution"
 
       - title: Haplotype-tagging ("Haplotagging")
-        content: I am collaborating with the Genomics Innovation Hub at Cornell to further develop Haplotagging - a linked-read sequencing technology designed to generate population-scale sequencing data while retaining haplotype information in non-model species. Click the GitHub icon to learn more about our analytical pipeline, Harpy.
+        content: I am collaborating with the Genomics Innovation Hub at Cornell to further develop Haplotagging - a linked-read sequencing technology designed to generate population-scale genomic data while retaining haplotype information in non-model species. Click the GitHub icon to learn more about our analytical pipeline, Harpy.
         image: /images/haplo_beads.png
         featured:
           name: Haplotagging Website
