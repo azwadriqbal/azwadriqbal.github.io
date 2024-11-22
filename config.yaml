@@ -22,13 +22,13 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: research
-      name: Research
-      title: Research projects
-      url: /research
-      weight: 1
+# Menus:
+#   main:
+    # - identifier: research
+    #   name: Research
+    #   title: Research projects
+    #   url: /research
+    #   weight: 1
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -75,7 +75,7 @@ params:
 
   font:
     fontSize: 1.25rem # default: 1rem
-    fontWeight: 400 # default: 400
+    fontWeight: 500 # default: 400
     lineHeight: 1.5 # default: 1.5
     textAlign: left # default: left
 
@@ -115,7 +115,7 @@ params:
       disableAbout: false
       disableExperience: false
       disableEducation: false
-      disableProjects: true
+      disableProjects: false
       disableAchievements: true
       disableContact: false
 
@@ -168,6 +168,41 @@ params:
         - "Snakemake"
         - "Whole-genome sequencing"
         - "[Haplotagging](https://www.pnas.org/doi/suppl/10.1073/pnas.2015005118)"
+
+  # projects
+  projects:
+    enable: true
+    title: "Research"
+    items:
+      - title: Adaptive Genomics of Invasive American shad
+        content: |-
+          The bulk of my dissertation is focused on identifying genomic signals of rapid adaptation in invasive populations of American shad. I'm especially interested in studying how structural variants, standing variation, and demographic changes have shaped the evolution of invasive populations.
+        image: /images/inversion_gradient.png
+        badges:
+          - "Invasion Genomics"
+          - "Rapid Evolution"
+
+      - title: Haplotype-tagging ("Haplotagging")
+        content: I am collaborating with the Genomics Innovation Hub at Cornell to further develop Haplotagging - a linked-read sequencing technology designed to generate population-scale sequencing data while retaining haplotype information in non-model species. Click the GitHub icon to learn more about our analytical pipeline, Harpy.
+        image: /images/haplo_beads.png
+        featured:
+          name: Haplotagging Website
+          link: https://www.fml.tuebingen.mpg.de/9418/haplotaggingheli
+        badges:
+          - "Linked-read sequencing"
+          - "Haplotypes"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/pdimens/harpy
+
+      - title: Museomics of Invasive shad
+        content: I am working with a variety of museums to leverage historical tissue samples of American shad to study the how standing variation and population bottlenecks may have affected the tempo and trajectory of evolutionary change in invasive lineages. 
+        image: /images/old_shad.jpg
+        badges:
+          - "Historical DNA"
+          - "Demographic inference"
+          - "Standing Variation"
+
 
   # Experience
   experience:
@@ -274,55 +309,7 @@ params:
         content: Contributed to a open source project.
         url: https://example.com
 
-  # projects
-  projects:
-    enable: false
-    title: "Research"
-    items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        badges:
-          - "Django"
-          - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
-
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
 
   #Contact
   contact:
