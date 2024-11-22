@@ -125,11 +125,11 @@ params:
     intro: "Hi, I'm"
     title: "Azwad Iqbal"
     subtitle: "I'm a population geneticist & evolutionary biologist"
-    content: "I'm interesting in using population genomics to study rapid evolution in invasive species. My research focuses on identifying genomic signals of local adaptation, including the role of structrual variants in adaptive genomic architecture, to studying biological invasions."
+    content: "I'm interesting in using population genomics to study rapid evolution in invasive species. My research uses a combination of molecular and analytical methods to reconstruct the evolutionary histories of biological invasions."
     image: /images/azwad.jpg
-    bottomImage:
-      enable: false
-      roundImage: false # Make hero image circular | default false
+    bottomImage: 
+      enable: true
+    roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "CV"
@@ -180,7 +180,7 @@ params:
           name: "Therkildsen Lab Website"
           url: "https://therkildsenlab.org"
         content: |
-          I am PhD Candidate at Cornell University In the department of Natural Resources and the Environment. I am currently working on several projects, including:
+          I am PhD Candidate at Cornell University in the department of Natural Resources and the Environment. I am currently working on several projects, including:
         
           - Studying the rapid evolution of invasive American shad with whole-genome resequencing
           - Developing "Haplotagging" linked-read sequencing technology for non-model organisms
@@ -338,9 +338,9 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    content: Shoot me an email!
     btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
+    btnLink: mailto:ari22@cornell.edu
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
@@ -356,11 +356,9 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/azwadriqbal
+      linkedin: https://www.linkedin.com/in/azwad-iqbal-689252127/
+      twitter: https://twitter.com/azwadiqbal
 
   # List pages like blogs and posts
   listPages:
