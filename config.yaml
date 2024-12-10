@@ -125,7 +125,7 @@ params:
     intro: "Hi, I'm"
     title: "Azwad Iqbal"
     subtitle: "I'm a population geneticist & evolutionary biologist"
-    content: "I'm interesting in using population genomics to study rapid evolution in invasive species. My research uses a combination of molecular and analytical methods to reconstruct the evolutionary histories of biological invasions."
+    content: "I'm interesting in using population genomics to study rapid evolution in invasive species. My research uses molecular and computational methods to reconstruct the evolutionary histories of biological invasions."
     image: /images/azwad.jpg
     image_second: /images/shad_2.jpg
     bottomImage: 
