@@ -75,7 +75,7 @@ params:
 
   font:
     fontSize: 1.25rem # default: 1rem
-    fontWeight: 500 # default: 400
+    fontWeight: 550 # default: 400
     lineHeight: 1.5 # default: 1.5
     textAlign: left # default: left
 
