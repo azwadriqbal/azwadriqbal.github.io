@@ -125,7 +125,7 @@ params:
     intro: "Hi, I'm"
     title: "Azwad Iqbal"
     subtitle: "I'm a population geneticist & evolutionary biologist"
-    content: "I'm interesting in using population genomics to study rapid evolution in invasive species. My research uses molecular and computational methods to reconstruct the evolutionary histories of biological invasions."
+    content: "I'm interesting in using population genomics to study rapid evolution in non-model organisms. My research uses molecular and computational methods to reconstruct the evolutionary histories of biological invasions."
     image: /images/azwad.jpg
     image_second: /images/shad_2.jpg
     bottomImage: 
@@ -238,10 +238,11 @@ params:
           enable: false
           content: I worked as a software developer for more than one year in Amazon.
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          As a Research Specialist in the McBride Lab, I worked on a variety of projects studying the genetic and neural basis for behavior in the Yellow Fever Mosquito (*Aedes aegypti*).
+          My tasks included:
+          - Behavioral assays exploring mosquito attraction to human and non-human odor cues
+          - Rearing, crossing, and screening various strains of *Aedes aegypti* mosquitoes, including transgenic and wild-sourced lines 
+          - Implementing a tagmentation-mapping (TagMap) protocol to identify the genomic locations of CRISPR-Cas9 constructs in transgenic lines
 
       - job: "Undergraduate Researcher"
         company: "Pringle Lab - Princeton University"
@@ -254,10 +255,11 @@ params:
           name: "Co-Authored Publication"
           url: "https://www.pnas.org/doi/10.1073/pnas.2204400119"
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          As an undergraduate at Princeton, I worked as a researcher in the Pringle lab on a number of projects studying the trophic ecology of large mammalian herbivores in African savanna ecosystems.
+          I worked on several projects, including:
+          - Demographic surveys of *Barleria* plants across rainfall and herbivore-stress gradients at the [Mpala Research Centre](https://mpala.org/) in Kenya
+          - Studying plant-herbivore dietary networks using DNA metabarcoding at Nyika National Park, Malawi
+          - Developing a DNA barcode reference database for plant species collected at Nyika National Park
 
   # Education
   education:
