@@ -134,7 +134,7 @@ params:
     button:
       enable: true
       name: "CV"
-      url: "https://raw.githubusercontent.com/azwadriqbal/azwadriqbal.github.io/refs/heads/main/cv/iqbal_azwad_cv_11_04_24.pdf"
+      url: "https://raw.githubusercontent.com/azwadriqbal/azwadriqbal.github.io/refs/heads/main/cv/iqbal_azwad_CV_08_21_25.pdf"
       download: true
       newPage: false
     socialLinks:
