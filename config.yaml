@@ -220,7 +220,7 @@ params:
         info:
           enable: false          
         content: |
-          I am PhD Candidate at Cornell University in the department of Natural Resources and the Environment. I am currently working on several projects, including:
+          I am a PhD Candidate at Cornell University in the department of Natural Resources and the Environment. I am currently working on several projects, including:
         
           - Studying the rapid evolution of invasive American shad with whole-genome resequencing
           - Developing "Haplotagging" linked-read sequencing technology for non-model organisms
