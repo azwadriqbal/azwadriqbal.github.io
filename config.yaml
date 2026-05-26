@@ -1,7 +1,7 @@
 baseURL: https://azwadriqbal.github.io
 languageCode: en-us
 title: Azwad Iqbal
-theme: hugo-profile
+# theme: hugo-profile
 
 outputs:
   home:
