@@ -1,0 +1,34 @@
+hugoblox:
+  schema: "2.0"
+  identity:
+    name: "Azwad Iqbal"
+    tagline: "Population geneticist & evolutionary biologist"
+    description: "Population genomics | Invasive species evolution | Conservation | PhD @ Cornell"
+    type: person
+    social:
+      twitter: azwadiqbal
+  theme:
+    mode: dark
+    pack: retro
+  layout:
+    spacing: comfortable
+    avatar_shape: circle
+  header:
+    enable: true
+    style: navbar
+    sticky: true
+    align: center
+    search: false
+    theme_toggle: false
+  footer:
+    style: minimal
+    language_switcher: false
+  content:
+    math:
+      enable: false
+    toc:
+      enable: true
+    reading_time:
+      enable: true
+  search:
+    enable: true
