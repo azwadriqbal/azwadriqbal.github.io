@@ -1,15 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Categories on Azwad Iqbal – Population Geneticist &amp; Evolutionary Biologist</title>
-		<link>https://azwadriqbal.github.io/categories/</link>
-		<description>Recent content in Categories on Azwad Iqbal – Population Geneticist &amp; Evolutionary Biologist</description>
-		<generator>Hugo</generator>
-		<language>en</language>
-		
-		
-		
-		
-			<atom:link href="https://azwadriqbal.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-	</channel>
+  <channel>
+    <title>Categories | Azwad Iqbal – Population Geneticist &amp; Evolutionary Biologist</title>
+    <link>https://azwadriqbal.github.io/categories/</link>
+      <atom:link href="https://azwadriqbal.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language>
+    <image>
+      <url>https://azwadriqbal.github.io/media/icon_hu_8b792fc0bcdf6699.png</url>
+      <title>Categories</title>
+      <link>https://azwadriqbal.github.io/categories/</link>
+    </image>
+    
+  </channel>
 </rss>

@@ -69,7 +69,7 @@ sections:
         count: 3
         sort_by: Date
     design:
-        view: list
+        view: date-title-summary
     id: experience
   - block: collection
     content:
@@ -79,7 +79,7 @@ sections:
         count: 2
         sort_by: Date
     design:
-        view: list
+        view: date-title-summary
     id: education
   - block: markdown
     content:

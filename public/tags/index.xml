@@ -1,15 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Tags on Azwad Iqbal – Population Geneticist &amp; Evolutionary Biologist</title>
-		<link>https://azwadriqbal.github.io/tags/</link>
-		<description>Recent content in Tags on Azwad Iqbal – Population Geneticist &amp; Evolutionary Biologist</description>
-		<generator>Hugo</generator>
-		<language>en</language>
-		
-		
-		
-		
-			<atom:link href="https://azwadriqbal.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-	</channel>
+  <channel>
+    <title>Tags | Azwad Iqbal – Population Geneticist &amp; Evolutionary Biologist</title>
+    <link>https://azwadriqbal.github.io/tags/</link>
+      <atom:link href="https://azwadriqbal.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language>
+    <image>
+      <url>https://azwadriqbal.github.io/media/icon_hu_8b792fc0bcdf6699.png</url>
+      <title>Tags</title>
+      <link>https://azwadriqbal.github.io/tags/</link>
+    </image>
+    
+  </channel>
 </rss>

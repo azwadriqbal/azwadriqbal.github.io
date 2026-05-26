@@ -1,12 +1,15 @@
 baseURL: "https://azwadriqbal.github.io/"
-languageCode: "en"
 title: "Azwad Iqbal – Population Geneticist & Evolutionary Biologist"
+
 defaultContentLanguage: "en"
+
 outputs:
   home:
     - HTML
     - RSS
-  page:
+    - headers
+    - redirects
+    - backlinks
+  section:
     - HTML
     - RSS
-

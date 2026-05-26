@@ -2,4 +2,8 @@ module github.com/azwadriqbal/azwadriqbal.github.io
 
 go 1.22.2
 
-require github.com/HugoBlox/kit v5.5.1-0.20260517230217-f017b3faefc0+incompatible // indirect
+require (
+	github.com/HugoBlox/kit/modules/blox v0.0.0-20260502203050-b8ad5540288a
+	github.com/HugoBlox/kit/modules/integrations/netlify v1.3.0
+	github.com/HugoBlox/kit/modules/slides v1.3.0
+)
