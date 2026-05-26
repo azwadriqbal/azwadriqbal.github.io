@@ -1,2 +1,5 @@
 module github.com/azwadriqbal/azwadriqbal.github.io
-require github.com/HugoBlox/kit v0.12.0
+
+go 1.26.2
+
+require github.com/HugoBlox/kit v4.8.0+incompatible
