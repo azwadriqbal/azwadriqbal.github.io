@@ -46,9 +46,9 @@ jobs:
       - name: Install Node.js dependencies
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          
-      - run: npm ci || true
+          node-version: '22'   # >= 22 required: Hugo runs Tailwind v4 via `node --permission`
+
+      - run: npm ci
 
       - name: Build
         run: hugo --minify
