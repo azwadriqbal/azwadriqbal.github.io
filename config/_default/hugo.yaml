@@ -3,6 +3,13 @@ title: "Azwad Iqbal – Population Geneticist & Evolutionary Biologist"
 
 defaultContentLanguage: "en"
 
+# REQUIRED for Tailwind v4 + Hugo Blox.
+# Emits hugo_stats.json so Tailwind knows which classes the theme's templates use.
+# Without this, production builds purge responsive (lg:, md:, etc.) classes and the
+# desktop layout collapses to a narrow column.
+build:
+  writeStats: true
+
 outputs:
   home:
     - HTML
