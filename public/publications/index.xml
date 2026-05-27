@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Azwad Iqbal – Population Geneticist &amp; Evolutionary Biologist</title>
+    <link>https://azwadriqbal.github.io/publications/</link>
+      <atom:link href="https://azwadriqbal.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://azwadriqbal.github.io/media/icon.svg</url>
+      <title>Publications</title>
+      <link>https://azwadriqbal.github.io/publications/</link>
+    </image>
+    
+    <item>
+      <title>A complete assembly and annotation of the American shad genome yields insights into the origins of diadromy</title>
+      <link>https://azwadriqbal.github.io/publications/shad-genome/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://azwadriqbal.github.io/publications/shad-genome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Harpy: A pipeline for processing haplotagging linked-read data</title>
+      <link>https://azwadriqbal.github.io/publications/harpy/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://azwadriqbal.github.io/publications/harpy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mosquito brains encode unique features of human odour to drive host seeking</title>
+      <link>https://azwadriqbal.github.io/publications/mosquito-host-seeking/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://azwadriqbal.github.io/publications/mosquito-host-seeking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The generality of cryptic dietary niche differences in diverse large-herbivore assemblages</title>
+      <link>https://azwadriqbal.github.io/publications/cryptic-dietary-niche/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://azwadriqbal.github.io/publications/cryptic-dietary-niche/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

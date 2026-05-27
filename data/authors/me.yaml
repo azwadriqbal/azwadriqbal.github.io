@@ -1,0 +1,210 @@
+# =============================================================================
+# Author / CV profile  →  data/authors/me.yaml
+# Consumed by the resume-* blocks via `username: me`.
+# Avatar lives at: assets/media/authors/me.jpg  (NOT in this file)
+# =============================================================================
+
+name:
+  display: Azwad Iqbal
+  given: Azwad
+  family: Iqbal
+
+# Shown under your name in the biography block
+role: Population Geneticist & Evolutionary Biologist
+
+# Short bio shown in the biography block (kept brief; the longer "About"
+# narrative lives in content/_index.md so your existing text is preserved)
+bio: >-
+  PhD candidate at Cornell studying rapid evolution and the conservation of
+  wild species through population genomics, bioinformatics, and fieldwork.
+
+# Status emoji + message (optional; appears as a small badge on the avatar)
+status:
+  icon: 🧬
+
+interests:
+  - Population & conservation genomics
+  - Rapid evolution & local adaptation
+  - Invasive species
+  - Molecular ecology
+
+# --- Education ----------------------------------------------------------------
+education:
+  - degree: PhD in Natural Resources and the Environment
+    institution: Cornell University
+    date_start: '2021-08-01'
+    date_end: ''
+    summary: 'Advisor: Nina Overgaard Therkildsen. Expected 2026.'
+    icon: academicons/cornell
+
+  - degree: BA in Ecology and Evolutionary Biology
+    institution: Princeton University
+    date_start: '2015-09-01'
+    date_end: '2019-06-01'
+    summary: Summa Cum Laude. Minor in Environmental Studies.
+    icon: academicons/princeton
+
+# --- Research experience ------------------------------------------------------
+experience:
+  - role: Research Specialist
+    org: McBride Lab, Princeton University
+    start: '2019-05-01'
+    end: '2021-07-01'
+    summary: >-
+      Studied the neural and genomic basis of mosquito host preference using
+      neural imaging, behavioral assays, transgenic line maintenance,
+      whole-genome sequencing, and tagmentation mapping protocols.
+    icon: hero/beaker
+
+  - role: Senior Thesis Researcher
+    org: Pringle Lab, Princeton University
+    start: '2018-06-01'
+    end: '2019-04-01'
+    summary: >-
+      Conducted lab and field work in Nyika National Park, Malawi, collecting
+      plant specimens to build a local DNA barcode database and reconstruct
+      herbivore trophic networks.
+    icon: hero/globe-alt
+
+  - role: Lab Technician
+    org: Ayroles Lab, Lewis-Sigler Institute for Integrative Genomics
+    start: '2018-01-01'
+    end: '2018-12-01'
+    summary: >-
+      Lead technician on a project examining the genetic basis of speciation
+      between *Drosophila sechellia* and *D. simulans*.
+    icon: hero/beaker
+
+  - role: Field Technician
+    org: Pringle Lab, Nyika National Park, Malawi
+    start: '2017-06-01'
+    end: '2017-08-01'
+    summary: >-
+      Collected animal fecal samples for a large-mammalian-herbivore diet and
+      resource-partitioning project.
+    icon: hero/globe-alt
+
+  - role: Field Technician
+    org: Pringle Lab, Mpala Research Centre, Laikipia, Kenya
+    start: '2016-07-01'
+    end: '2016-09-01'
+    summary: >-
+      Conducted field experiments on the induced plant defenses of *Barleria*
+      species.
+    icon: hero/globe-alt
+
+# --- Skills (detailed CV version; shown on the Experience page) ---------------
+skills:
+  - name: Programming
+    color: '#0ea5e9'
+    items:
+      - name: R
+      - name: Python
+      - name: Snakemake
+      - name: Bash
+
+  - name: Bioinformatics & Software
+    color: '#10b981'
+    items:
+      - name: SLURM
+      - name: bwa
+      - name: samtools / bcftools
+      - name: ANGSD
+      - name: GATK
+      - name: git / GitHub
+
+  - name: Laboratory
+    color: '#a855f7'
+    items:
+      - name: Gel electrophoresis
+      - name: PCR
+      - name: gDNA extraction (archival & contemporary)
+      - name: NGS library preparation
+
+# --- Awards, funding & honors -------------------------------------------------
+awards:
+  - title: NSF Graduate Research Fellowship (GRFP)
+    awarder: National Science Foundation
+    date: '2023-01-01'
+    summary: '$159,000'
+  - title: Cornell Center for Vertebrate Genomics Scholar Award
+    awarder: Cornell University
+    date: '2024-01-01'
+    summary: '$12,000'
+  - title: Cornell University Fellowship
+    awarder: Cornell University
+    date: '2021-01-01'
+    summary: '$33,032'
+  - title: Cornell Atkinson Center Sustainable Biodiversity Fund
+    awarder: Cornell Atkinson Center for Sustainability
+    date: '2025-01-01'
+    summary: '$2,970 (2025) + $6,930 (2021)'
+  - title: American Museum of Natural History Theodore Roosevelt Memorial Fund Grant
+    awarder: American Museum of Natural History
+    date: '2025-01-01'
+    summary: '$2,400'
+  - title: American Philosophical Society Lewis and Clark Fund
+    awarder: American Philosophical Society
+    date: '2023-01-01'
+    summary: '$3,000'
+  - title: SSE R.C. Lewontin Early Award
+    awarder: Society for the Study of Evolution
+    date: '2023-01-01'
+    summary: '$2,500'
+  - title: Cornell Center for Vertebrate Genomics Scholar
+    awarder: Cornell University
+    date: '2024-01-01'
+    summary: Honor.
+  - title: Best Proposal-stage Presentation
+    awarder: Cornell Dept. of Natural Resources Symposium
+    date: '2022-01-01'
+    summary: ''
+  - title: NSF GRFP Honorable Mention
+    awarder: National Science Foundation
+    date: '2021-01-01'
+    summary: ''
+  - title: Sigma Xi Book Award for Outstanding Research
+    awarder: Princeton Dept. of Ecology & Evolutionary Biology
+    date: '2019-01-01'
+    summary: ''
+  - title: Senior Thesis Prize in Ecology
+    awarder: Princeton Dept. of Ecology & Evolutionary Biology
+    date: '2019-01-01'
+    summary: ''
+  - title: Gates Cambridge Finalist — Biological Sciences
+    awarder: Gates Cambridge
+    date: '2019-01-01'
+    summary: ''
+
+# --- Languages ----------------------------------------------------------------
+languages:
+  - name: English
+    level: Fluent
+    percent: 100
+  - name: Bengali
+    level: Conversational
+    percent: 60
+  - name: Hindi
+    level: Elementary
+    percent: 30
+  - name: Spanish
+    level: Elementary
+    percent: 30
+
+# --- Social / contact links (shown under the biography) -----------------------
+links:
+  - url: 'mailto:ari22@cornell.edu'
+    icon: hero/envelope
+    label: Email
+  - url: 'https://github.com/azwadriqbal'
+    icon: brands/github
+    label: GitHub
+  - url: 'https://orcid.org/0000-0002-8266-7284'
+    icon: academicons/orcid
+    label: ORCID
+  - url: 'https://soundcloud.com/wadzmix'
+    icon: brands/soundcloud
+    label: SoundCloud
+
+# Marks this profile as the site owner (bolds your name in citations, etc.)
+is_owner: true

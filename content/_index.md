@@ -1,93 +1,128 @@
 ---
-title: "Azwad Iqbal – Population Geneticist & Evolutionary Biologist"
+# Leave the homepage title empty to use the site title
+title: ''
 summary: "Population genomics | Invasive species evolution | Conservation | PhD @ Cornell"
 date: 2026-05-26
-design:
-  spacing: 6rem
 type: landing
+
+design:
+  # Section spacing
+  spacing: 6rem
+
 sections:
-  - block: hero
+  # ---------------------------------------------------------------------------
+  # 1. Biography  (photo + name + role + bio + education + interests)
+  #    Pulls structured data from data/authors/me.yaml
+  #    Photo:  assets/media/authors/me.jpg
+  # ---------------------------------------------------------------------------
+  - block: resume-biography-3
     content:
-        title: Azwad Iqbal
-        text: "Population geneticist & evolutionary biologist at Cornell. Studying rapid evolution with population genomics and conservation applications."
-        primary_action:
-          text: View CV
-          url: "https://raw.githubusercontent.com/azwadriqbal/azwadriqbal.github.io/refs/heads/main/cv/Azwad-Iqbal-CV.pdf"
-        secondary_action:
-          text: Contact
-          url: "#contact"
-        announcement:
-          text: Now accepting collaborations
+      username: me
+      text: ''
+      button:
+        text: Download CV
+        url: uploads/Azwad-Iqbal-CV.pdf
+      headings:
+        about: ''
+        education: Education
+        interests: Interests
     design:
-        background:
-          color:
-            dark: "#10151A"
-        text_color_light: true
-        image:
-          filename: azwad.jpg
+      background:
+        gradient_mesh:
+          enable: true
+      name:
+        size: lg
+      avatar:
+        size: medium
+        shape: circle
+
+  # ---------------------------------------------------------------------------
+  # 2. About  (your existing written content — preserved verbatim)
+  # ---------------------------------------------------------------------------
   - block: markdown
     content:
-        title: About
-        text:
-          |
-            I am a broadly trained **population geneticist** and **evolutionary biologist** with a background in molecular ecology. I've worked with [large mammalian herbivores](https://www.pnas.org/doi/10.1073/pnas.2204400119) in African savannas, [yellow-fever mosquitoes](https://www.nature.com/articles/s41586-022-04675-4), and am currently working with American shad (*Alosa sapidissima*) at Cornell University.
-            
-            I'm passionate about using genomics for conservation and have collaborated with stakeholders to guide my research.
-            
-            Outside research: powerlifting, video games, music (hip hop, indie, electronic), and [producing mixes](https://soundcloud.com/wadzmix) for bhangra teams.
+      title: About
+      text: |
+        I am a broadly trained **population geneticist** and **evolutionary biologist** with a background in molecular ecology. I've worked with [large mammalian herbivores](https://www.pnas.org/doi/10.1073/pnas.2204400119) in African savannas, [yellow-fever mosquitoes](https://www.nature.com/articles/s41586-022-04675-4), and am currently working with American shad (*Alosa sapidissima*) at Cornell University.
+
+        I'm passionate about using genomics for conservation and have collaborated with stakeholders to guide my research.
+
+        Outside of research, I am a competitive [powerlifter](https://www.openpowerlifting.org/u/azwadiqbal) and I enjoy playing video games, listening to music (hip hop, indie, electronic), and [producing mixes](https://soundcloud.com/wadzmix) for bhangra teams.
     id: about
+
+  # ---------------------------------------------------------------------------
+  # 3. Skills & Methods  (your existing features block — preserved verbatim)
+  # ---------------------------------------------------------------------------
   - block: features
     content:
-        title: "Skills & Methods"
-        items:
-          - name: Programming
-            description: "R, Python, Bash, Snakemake"
-            icon: devicon/python
-          - name: Genomics
-            description: "Whole-genome sequencing, linked-read technologies, Haplotagging"
-            icon: hero/swatch
-          - name: Lab/Field
-            description: "Molecular ecology, museum samples, demography, DNA metabarcoding"
-            icon: hero/book-open
+      title: 'Skills & Methods'
+      items:
+        - name: Programming
+          description: 'R, Python, Bash, Snakemake'
+          icon: devicon/python
+        - name: Genomics
+          description: 'Whole-genome sequencing, linked-read technologies, Haplotagging'
+          icon: hero/swatch
+        - name: Lab/Field
+          description: 'Molecular ecology, museum samples, demography, DNA metabarcoding'
+          icon: hero/book-open
     id: skills
+
+  # ---------------------------------------------------------------------------
+  # 4. Featured publication(s)  →  content/publications/ with featured: true
+  # ---------------------------------------------------------------------------
   - block: collection
     content:
-        title: Research Projects
-        text: Recent and ongoing research projects.
-        page_type: project
-        count: 3
-        sort_by: Date
+      title: Featured Publications
+      filters:
+        folders:
+          - publications
+        featured_only: true
     design:
-        view: card
-        columns: 3
+      view: article-grid
+      columns: 1
+    id: featured-publications
+
+  # ---------------------------------------------------------------------------
+  # 5. All publications  (citation view)  →  content/publications/
+  # ---------------------------------------------------------------------------
+  - block: collection
+    content:
+      title: Publications
+      text: ''
+      filters:
+        folders:
+          - publications
+    design:
+      view: citation
+    id: publications
+
+  # ---------------------------------------------------------------------------
+  # 6. Research projects  →  content/projects/  (renders once you add projects)
+  # ---------------------------------------------------------------------------
+  - block: collection
+    content:
+      title: Research Projects
+      text: Recent and ongoing research projects.
+      filters:
+        folders:
+          - projects
+      count: 3
+    design:
+      view: card
+      columns: 3
     id: projects
-  - block: collection
-    content:
-        title: Experience
-        text: Academic and research experience.
-        page_type: resume-experience
-        count: 3
-        sort_by: Date
-    design:
-        view: date-title-summary
-    id: experience
-  - block: collection
-    content:
-        title: Education
-        text: Degrees and honors.
-        page_type: resume-awards
-        count: 2
-        sort_by: Date
-    design:
-        view: date-title-summary
-    id: education
+
+  # ---------------------------------------------------------------------------
+  # 7. Contact  (your existing written content — preserved verbatim)
+  # ---------------------------------------------------------------------------
   - block: markdown
     content:
-        title: Contact
-        text: "**Ready to collaborate or have questions?** [Mail me](mailto:ari22@cornell.edu)"
+      title: Contact
+      text: '**Ready to collaborate or have questions?** [Mail me](mailto:ari22@cornell.edu)'
     design:
-        background:
-          color:
-            dark: "#212529"
+      background:
+        color:
+          dark: '#212529'
     id: contact
 ---

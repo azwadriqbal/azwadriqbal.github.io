@@ -1,0 +1,23 @@
+# =============================================================================
+#  Top navigation
+#  Hash URLs (/#publications, /#about) jump to a section block on the home page,
+#  matching the `id:` you set on that block in content/_index.md.
+#  Bare URLs (experience/) link to a regular content page.
+# =============================================================================
+
+main:
+  - name: About
+    url: /#about
+    weight: 10
+  - name: Publications
+    url: /#publications
+    weight: 20
+  - name: Projects
+    url: /#projects
+    weight: 30
+  - name: Experience
+    url: experience/
+    weight: 40
+  - name: Contact
+    url: /#contact
+    weight: 50
