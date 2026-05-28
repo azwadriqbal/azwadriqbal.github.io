@@ -39,18 +39,17 @@ sections:
   # ---------------------------------------------------------------------------
   # 2. About  (your existing written content — preserved verbatim)
   # ---------------------------------------------------------------------------
-  - block: cta-image-paragraph
+  - block: markdown
     content:
-      items:
-        - title: About
-          text: |
-            I am a broadly trained **population geneticist** and **evolutionary biologist** with a background in molecular ecology. I've worked with [large mammalian herbivores](https://www.pnas.org/doi/10.1073/pnas.2204400119) in African savannas, [yellow-fever mosquitoes](https://www.nature.com/articles/s41586-022-04675-4), and am currently working with American shad (*Alosa sapidissima*) at Cornell University.
+      title: About
+      text: |
+        I am a broadly trained **population geneticist** and **evolutionary biologist** with a background in molecular ecology. I've worked with [large mammalian herbivores](https://www.pnas.org/doi/10.1073/pnas.2204400119) in African savannas, [yellow-fever mosquitoes](https://www.nature.com/articles/s41586-022-04675-4), and am currently working with American shad (*Alosa sapidissima*) at Cornell University.
 
-            I'm passionate about using genomics for conservation and have collaborated with stakeholders to guide my research.
+        I am passionate about using genomics for conservation and have collaborated with stakeholders to guide my research.
 
-            Outside of research, I am a competitive [powerlifter](https://www.openpowerlifting.org/u/azwadiqbal) and I enjoy playing video games, listening to music (hip hop, indie, electronic), and [producing mixes](https://soundcloud.com/wadzmix) for bhangra teams.
-          media:
-            src: me_2.jpg
+        Outside of research, I am a competitive [powerlifter](https://www.openpowerlifting.org/u/azwadiqbal) and I enjoy playing video games, listening to music (hip hop, indie, electronic), and [producing mixes](https://soundcloud.com/wadzmix) for bhangra teams.
+
+        ![Fieldwork in Malawi](media/me_2.jpg)
     id: about
 
   # ---------------------------------------------------------------------------
