@@ -111,6 +111,7 @@ skills:
     color: '#10b981'
     items:
       - name: SLURM
+        icon: custom/slurm
       - name: bwa
       - name: samtools / bcftools
       - name: ANGSD
