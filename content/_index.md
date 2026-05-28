@@ -49,7 +49,7 @@ sections:
 
         Outside of research, I am a competitive [powerlifter](https://www.openpowerlifting.org/u/azwadiqbal) and I enjoy playing video games, listening to music (hip hop, indie, electronic), and [producing mixes](https://soundcloud.com/wadzmix) for bhangra teams.
 
-        ![Fieldwork in Malawi](me_2.jpg)
+        ![Fieldwork in Malawi](me_2.png)
     id: about
 
   # ---------------------------------------------------------------------------
