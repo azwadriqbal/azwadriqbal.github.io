@@ -64,7 +64,7 @@ experience:
       Conducted lab and field work in Nyika National Park, Malawi, collecting
       plant specimens to build a local DNA barcode database and reconstruct
       herbivore trophic networks.
-    icon: hero/globe-alt
+    icon: hero/globe-europe-africa
 
   - role: Lab Technician
     org: Ayroles Lab, Lewis-Sigler Institute for Integrative Genomics
@@ -82,7 +82,7 @@ experience:
     summary: >-
       Collected animal fecal samples for a large-mammalian-herbivore diet and
       resource-partitioning project.
-    icon: hero/globe-alt
+    icon: hero/globe-europe-africa
 
   - role: Field Technician
     org: Pringle Lab, Mpala Research Centre, Laikipia, Kenya
@@ -91,7 +91,7 @@ experience:
     summary: >-
       Conducted field experiments on the induced plant defenses of *Barleria*
       species.
-    icon: hero/globe-alt
+    icon: hero/globe-europe-africa
 
 # --- Skills (detailed CV version; shown on the Experience page) ---------------
 skills:
