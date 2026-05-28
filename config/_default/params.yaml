@@ -7,6 +7,9 @@ hugoblox:
     type: person
     social:
       twitter: azwadiqbal
+      github: azwadriqbal
+      orcid: "0000-0002-8266-7284"
+      scholar: "tTnoDp0AAAAJ"
   theme:
     mode: dark
     pack: retro
@@ -19,7 +22,7 @@ hugoblox:
     sticky: true
     align: center
     search: false
-    theme_toggle: false
+    theme_toggle: true
   footer:
     style: minimal
     language_switcher: false
@@ -29,6 +32,6 @@ hugoblox:
     toc:
       enable: true
     reading_time:
-      enable: true
+      enable: false
   search:
     enable: true

@@ -201,6 +201,18 @@ links:
   - url: 'mailto:ari22@cornell.edu'
     icon: hero/envelope
     label: Email
+  - url: 'https://twitter.com/azwadiqbal'
+    icon: brands/twitter
+    label: Twitter
+  - url: 'https://bsky.app/profile/azwadiqbal.bsky.social'
+    icon: brands/bluesky
+    label: Bluesky
+  - url: 'https://scholar.google.com/citations?user=tTnoDp0AAAAJ'
+    icon: brands/google
+    label: Google Scholar
+  - url: 'https://www.linkedin.com/in/azwad-iqbal-9b1a5b1a4/'
+    icon: brands/linkedin
+    label: LinkedIn
   - url: 'https://github.com/azwadriqbal'
     icon: brands/github
     label: GitHub
