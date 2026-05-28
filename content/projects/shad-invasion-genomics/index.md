@@ -1,5 +1,5 @@
 ---
-title: 'Population Genomics of Invasion in American Shad'
+title: 'Rapid Evolution of Invasive Species'
 summary: 'Founder effects, local adaptation, and chromosomal inversions in the rapid evolution of invasive American shad (*Alosa sapidissima*) on the Pacific Coast.'
 date: 2024-06-01
 tags:
