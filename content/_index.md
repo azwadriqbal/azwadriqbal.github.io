@@ -55,9 +55,10 @@ sections:
   # ---------------------------------------------------------------------------
   # 3. Skills & Methods  (your existing features block — preserved verbatim)
   # ---------------------------------------------------------------------------
-  - block: features
+  - block: resume-skills
     content:
-      title: 'Skills & Methods'
+      title: Skills & Methods
+      username: me
       items:
         - name: Programming
           description: 'R, Python, Bash, Snakemake'
@@ -121,7 +122,7 @@ sections:
   - block: markdown
     content:
       title: Contact
-      text: '**Ready to collaborate or have questions?** [Mail me](mailto:ari22@cornell.edu)'
+      text: '**Ready to collaborate or have questions?** [Email me](mailto:ari22@cornell.edu)'
     design:
       background:
         color:
