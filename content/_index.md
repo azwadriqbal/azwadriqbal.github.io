@@ -7,7 +7,7 @@ type: landing
 
 design:
   # Section spacing
-  spacing: 4rem
+  spacing: 1rem
 
 sections:
   # ---------------------------------------------------------------------------
