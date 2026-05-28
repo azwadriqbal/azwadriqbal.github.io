@@ -28,9 +28,9 @@ tags:
   - Genomics
   - American shad
 featured: true
-image: shad_genome.jpeg
+image: 
   caption: ''
-  focal_point: ''
+  focal_point: Smart
   preview_only: false
 projects: []
 ---
