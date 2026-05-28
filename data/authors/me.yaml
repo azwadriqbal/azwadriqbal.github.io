@@ -102,33 +102,30 @@ skills:
         icon: devicon/r
       - name: Python
         icon: devicon/python
-      - name: Bash
-        icon: devicon/bash
       - name: Snakemake
-        icon: hero/code-bracket
+        icon: custom/logo-snake
+      - name: Bash
+        icon: custom/bash
 
-  - name: Genomics
+  - name: Bioinformatics & Software
     color: '#10b981'
     items:
-      - name: Whole-genome sequencing
-        icon: hero/circle-stack
-      - name: Linked-read technologies
-        icon: hero/link
-      - name: Haplotagging
-        icon: hero/sparkles
+      - name: SLURM
+      - name: bwa
+      - name: samtools / bcftools
+      - name: ANGSD
+      - name: GATK
+      - name: git / GitHub
+        icon: brands/github
 
-  - name: Lab & Field
+  - name: Laboratory
     color: '#a855f7'
     items:
-      - name: Molecular ecology
-        icon: hero/beaker
-      - name: Museum samples
-        icon: hero/archive-box
-      - name: Demography
-        icon: hero/users
-      - name: DNA metabarcoding
-        icon: hero/swatch
-  
+      - name: Gel electrophoresis
+      - name: PCR
+      - name: gDNA extraction (archival & contemporary)
+      - name: NGS library preparation
+
 # --- Awards, funding & honors -------------------------------------------------
 awards:
   - title: NSF Graduate Research Fellowship (GRFP)
