@@ -201,9 +201,6 @@ links:
   - url: 'mailto:ari22@cornell.edu'
     icon: hero/envelope
     label: Email
-  - url: 'https://twitter.com/azwadiqbal'
-    icon: brands/twitter
-    label: Twitter
   - url: 'https://bsky.app/profile/azwadiqbal.bsky.social'
     icon: brands/bluesky
     label: Bluesky
@@ -219,9 +216,6 @@ links:
   - url: 'https://orcid.org/0000-0002-8266-7284'
     icon: academicons/orcid
     label: ORCID
-  - url: 'https://soundcloud.com/wadzmix'
-    icon: brands/soundcloud
-    label: SoundCloud
 
 # Marks this profile as the site owner (bolds your name in citations, etc.)
 is_owner: true
