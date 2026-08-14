@@ -7,7 +7,7 @@ authors:
   - Jennifer K. Grenier
   - Paul R. Munn
   - Nina Overgaard Therkildsen
-date: '2024-01-01T00:00:00Z'
+date: '2025-06-05T00:00:00Z'
 publication_types:
   - article-journal
 publication: '*Bioinformatics Advances, 5*(1). [doi:10.1093/bioadv/vbaf133](https://doi.org/10.1093/bioadv/vbaf133)'
