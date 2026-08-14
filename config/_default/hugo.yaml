@@ -5,10 +5,22 @@ defaultContentLanguage: "en"
 
 # REQUIRED for Tailwind v4 + Hugo Blox.
 # Emits hugo_stats.json so Tailwind knows which classes the theme's templates use.
-# Without this, production builds purge responsive (lg:, md:, etc.) classes and the
-# desktop layout collapses to a narrow column.
 build:
   writeStats: true
+
+# Hugo >= 0.165 runs the Tailwind v4 CLI as an external binary, which must be
+# explicitly allowed. NOTE: this list REPLACES Hugo's defaults, so the stock
+# entries are repeated here — dropping one would break sass/go/git/node/postcss.
+security:
+  exec:
+    allow:
+      - '^(dart-)?sass$'
+      - '^go$'
+      - '^git$'
+      - '^node$'
+      - '^npx$'
+      - '^postcss$'
+      - '^tailwindcss$'
 
 outputs:
   home:
