@@ -83,7 +83,7 @@ sections:
         featured_only: true
     design:
       view: card
-      columns: 1
+      columns: 2
     id: featured-publications
 
   # ---------------------------------------------------------------------------
