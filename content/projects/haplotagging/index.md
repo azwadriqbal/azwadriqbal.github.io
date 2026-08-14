@@ -7,7 +7,7 @@ tags:
   - Population genomics
   - Haplotypes
   - Phasing
-external_link: 'https://blinkseq.github.io/'
+external_link: ''
 featured: true
 image:
   caption: ''
@@ -15,4 +15,4 @@ image:
   preview_only: false
 ---
 
-I am collaborating with the Genomics Innovation Hub at Cornell to develop BLink-seq - a linked-read sequencing technology designed to generate population-scale genomic data while retaining haplotype information in non-model species.
+I am collaborating with the Genomics Innovation Hub at Cornell to develop BLink-seq - a linked-read sequencing technology designed to generate population-scale genomic data while retaining haplotype information in non-model species. You can learn more [here](https://blinkseq.github.io/).
