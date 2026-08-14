@@ -1,5 +1,5 @@
 ---
-title: 'Haplotype-tagging ("Haplotagging")'
+title: 'BLink-seq'
 summary: 'Robust and scalable linked-read sequencing for non-model genomics'
 date: 2024-03-01
 tags:
@@ -7,7 +7,7 @@ tags:
   - Population genomics
   - Haplotypes
   - Phasing
-external_link: ''
+external_link: 'https://blinkseq.github.io/'
 featured: true
 image:
   caption: ''
@@ -15,4 +15,4 @@ image:
   preview_only: false
 ---
 
-I am collaborating with the Genomics Innovation Hub at Cornell to further develop Haplotagging - a linked-read sequencing technology designed to generate population-scale genomic data while retaining haplotype information in non-model species.
+I am collaborating with the Genomics Innovation Hub at Cornell to develop BLink-seq - a linked-read sequencing technology designed to generate population-scale genomic data while retaining haplotype information in non-model species.
